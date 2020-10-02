@@ -22,13 +22,39 @@ a:hover {
 }
 
 /* Section Styles */
+.portfolioLinkHeader {
+  background-color: #CD5C5C;
+  color: white;
+  padding: 15px;
+}
+
+#profileProjectName {
+  font-weight: bold;
+}
+
+.portfolioLink {
+  color: white;
+  display: inline-block;
+  border-bottom: 1px solid white;
+}
+
+.portfolioLink:hover {
+  border-color: black;
+}
+
+.portfolioLinkHeader a:hover {
+  color: black;
+}
+
+.portfolioLinkHeader p{
+  margin: 0;
+}
 
 nav {
   width: 100%;
   background: black;
   min-height: 30px;
   padding: 10px;
-  position: fixed;
   text-align: center;
 }
 .nav {
@@ -89,7 +115,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
 section {
   margin: 30px;
@@ -102,7 +128,7 @@ section {
   transition: all .5s;
 }
 section:hover {
-  border-color: #ff99ff;
+  border-color: black;
 }
 
 ul.skills {
